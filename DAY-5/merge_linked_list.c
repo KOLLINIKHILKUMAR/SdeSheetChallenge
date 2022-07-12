@@ -10,7 +10,7 @@ struct ListNode *temp=NULL,*newnode,*head=NULL;
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2)
 {
     int arr[100],i,j,tp,n=0;
-    temp=list1;
+    temp=list1;//edge case condition
     if(list1==NULL&&list2!=NULL)
     {
         return list2;
